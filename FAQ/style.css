@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --violet: #7e33e0;
+  --white: #fff;
+  --pink: #fb2e86;
+  --dark-blue: #0d0e43;
+  --light-pink: #e7e6ef;
+  --bluish-gray: #f2f0ff;
+  --bluish-gray-2: #f1f0ff;
+  --navy-blue: #1a0b5b;
+  --nav-1: #05e6b7;
+  --nav-2: #f701a8;
+  --nav-3: #00009d;
+  --wood-chair-bg-color: #f6f7fb;
+  --wood-chair-icon-bg-color: #eeeffb;
+  --images-boxs-hover: black;
+  --info-color-blue: #151875;
+  --grid-pics-info: #fb2448;
+  --grid-pics-bg: #f7f7f7;
+  --lorem-color: #1a0b5b;
+  --li-color: #acabc3;
+  --table-p-color: #a1a8c1;
+  --table-bottom-border: #e1e1e4;
+  --table-heading-color: #1d3178;
+  --table-price-color: #15245e;
+  --Green: #19d16f;
+  --Grey-box-background: #f4f4fc;
+  --grey-for-p: #8a8fb9;
+  --blue-row-list: #3f509e;
+
+  /* WIDTHS */
+  --containers-width: 1177px;
+
+  /* FONT FAMILY */
+  --josefin: "Josefin Sans", sans-serif;
+  --lato: "Lato", sans-serif;
+
+  /* FONT SIZE */
+  --font-normal: 16px;
+}
+
+body {
+  font-family: var(--josefin);
+}
+
+input,
+select {
+  outline: none;
+}
+.faq-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+.faq-content-main {
+  width: var(--containers-width);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 123px;
+  row-gap: 50px;
+}
+.faq-box-1 h1 {
+  font-size: 36px;
+  color: var(--table-heading-color);
+}
+.graph-box {
+  margin-top: 64px;
+}
+.graph-box h4 {
+  font-family: var(--josefin);
+  font-size: 17px;
+  line-height: 30px;
+  color: var(--table-heading-color);
+}
+.graph-box p {
+  margin-top: 15px;
+  max-width: 499px;
+  width: 100%;
+  color: #a1abcc;
+  font-family: var(--josefin);
+  font-size: var(--font-normal);
+  line-height: 30px;
+}
+.faq-box-2 {
+  background: #f8f8fd;
+  padding-left: 42px;
+  max-width: 566px;
+  width: 100%;
+  height: 738px;
+}
+.faq-box-2 h3 {
+  color: var(--table-heading-color);
+  font-family: var(--josefin);
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 66px;
+}
+.input-container {
+  margin-top: 114px;
+}
+.input-container input {
+  max-width: 445px;
+  width: 100%;
+  color: #8990b1;
+  border: none;
+}
+.input-container input::placeholder,
+.message-input-container {
+  font-family: var(--lato);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+}
+.input-for-name,
+.input-for-subject,
+.message-input-container {
+  padding: 15px 0px 15px 8px;
+  border-radius: 5px;
+  border: 1px solid #cdcedc;
+}
+.input-for-subject {
+  margin-top: 35px;
+}
+.message-input-container {
+  height: 197px;
+  max-width: 445px;
+  width: 100%;
+  margin-top: 45px;
+  border-radius: 5px;
+  padding-top: 11px;
+  padding-left: 8px;
+  width: 100%;
+  background-color: var(--white);
+  border: none;
+  resize: none;
+  outline: none;
+}
+.send-mail-btn {
+  color: #ffffff;
+  font-family: var(--josefin);
+  font-size: 16px;
+  line-height: 30px;
+  padding: 9px 40px 9px 41px;
+  background: var(--pink);
+  border: none;
+  border-radius: 3px;
+  margin-top: 41px;
+}
+.label {
+  margin-top: 92px !important;
+  margin-bottom: 91px !important;
+}
+@media screen and (max-width: 480px) {
+  .faq-box-2 {
+    padding: 0 20px;
+  }
+}
